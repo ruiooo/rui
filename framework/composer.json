@@ -1,0 +1,22 @@
+{
+    "name": "liusr/rui",
+    "description": "Rui Console Framework.",
+    "keywords": ["rui", "framework", "php-cli", "console", "command"],
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "liusr",
+            "email": "15270815@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~10.0", 
+        "catfan/medoo": "~10.0"
+    },
+    "autoload": {
+        "psr-4": {"Rui\\": "src/"}
+    },
+    "prefer-stable": true
+
+}
